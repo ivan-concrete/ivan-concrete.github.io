@@ -1,0 +1,101 @@
+body {
+ font-family: Arial, sans-serif;
+ background-color: #ffffff;
+ margin: 0;
+ padding: 40px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ }
+
+ /* Верхний логотип-заголовок */
+ .logo-container {
+ border: 6px solid #000000;
+ padding: 10px 45px;
+ margin-bottom: 40px;
+ background-color: #ffffff;
+ }
+
+ .logo-text {
+ font-family: Arial, sans-serif;
+ font-size: 64px;
+ font-weight: normal;
+ color: #000000;
+ margin: 0;
+ letter-spacing: -1px;
+ }
+
+ /* Главный контейнер сайта */
+ .site-container {
+ border: 1px solid #000000;
+ width: 800px;
+ min-height: 400px;
+ box-sizing: border-box;
+ display: flex;
+ flex-direction: column;
+ }
+
+ /* Контентная область */
+ .main-content {
+ padding: 30px;
+ flex-grow: 1;
+ }
+
+ h2 {
+ font-size: 16px;
+ font-weight: bold;
+ text-transform: uppercase;
+ margin-top: 0;
+ margin-bottom: 10px;
+ color: #000000;
+ }
+
+ .divider {
+ border: none;
+ border-top: 1px solid #000000;
+ margin-bottom: 20px;
+ }
+
+ p {
+ font-size: 14px;
+ line-height: 1.6;
+ color: #000000;
+ margin-top: 0;
+ margin-bottom: 20px;
+ }
+
+ .quote {
+ font-size: 12px;
+ color: #555555;
+ text-transform: uppercase;
+ margin-bottom: 40px;
+ }
+
+ a {
+ color: #0000ff;
+ text-decoration: underline;
+ }
+
+ /* Подвал */
+ .footer {
+ padding: 20px;
+ text-align: center;
+ }
+
+ .footer-dashed {
+ border: none;
+ border-top: 1px dashed #000000;
+ margin-bottom: 15px;
+ width: 100%;
+ }
+
+ .footer-text {
+ font-size: 12px;
+ color: #555555;
+ }
+
+ .footer-text a {
+ color: #0000ff;
+ font-weight: bold;
+ text-decoration: none;
+ }
